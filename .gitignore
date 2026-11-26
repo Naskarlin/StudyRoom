@@ -3,11 +3,12 @@
 build/
 .kotlin/
 
-# Local configuration file (sdk path, etc)
+# Local configuration file (SDK path, etc.)
 local.properties
 
 # Log/OS Files
 *.log
+.DS_Store
 
 # Android Studio generated files and folders
 captures/
@@ -17,18 +18,31 @@ captures/
 *.apk
 output-metadata.json
 
-# IntelliJ
+# IntelliJ / Android Studio
 *.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Personal or machine-specific IDE files (shared project settings in .idea/ stay tracked)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deploymentTargetDropDown.xml
+.idea/render.experimental.xml
+.idea/AndroidTestResultsUserPreferences.xml
+.idea/studiobot.xml
+.idea/appInsightsSettings.xml
 
 # Keystore files
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
+# Google Services (Firebase config) - every developer downloads their own copy, never commit it
 google-services.json
 
 # Android Profiling
